@@ -1,0 +1,52 @@
+
+/*TOP SECTION*/
+.header {
+    height: 60px;
+    background-color: grey;
+    margin-bottom: 5px;
+}
+
+.navigation {
+    margin-bottom: 5px;
+    height: 60px;
+    background-color: grey
+}
+
+/*MID SECTION*/
+.clearfix::after {
+    content:"";
+    display:block;
+    clear: both
+}
+/*SECTION WITH ARTICLE AND HEADERS*/
+#section {
+    background-color:gray;
+    height: 80px;
+    width: 50%;
+    float: left;
+    /*display: inline-block*/
+}
+
+#article {
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 40px;
+    background-color: azure;
+}
+
+/*ASIDE SECTION*/
+#aside {
+
+    background-color: grey;
+    height: 40px;
+    width: 50%;
+    float: right;
+    /*display:inline-block*/
+}
+
+/*FOOTER*/
+.footer{
+    background-color: gray;
+    height: 30px;
+    margin-top: 10px
+}
